@@ -1,0 +1,226 @@
+            /* CSS Logi_page */
+.Logi_page {
+    display: flex;
+    justify-content: center;
+    padding-inline: 100px;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding-inline: 100px; 
+}
+div{
+    display: grid;
+    justify-content: center;
+}
+
+.Name_web{
+    display: inline-flex;
+    justify-content: center;
+    padding-inline: 100px;
+}
+
+input{
+    border-radius: 10px;
+    height: 20px;
+    padding-inline: 10px;
+    justify-content: space-between;
+
+}
+.input_text{
+   margin-top: 15px;
+}
+li{
+    display: inline;
+    list-style: nome;
+    justify-content: space-between;
+}
+.linkNewUse{
+    padding-right: 10px;
+}
+.linkPss{
+    padding-left: 10px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    /* width: 70px; */
+    
+}
+
+            /* CSS NewUser Page */
+.UserNew{
+    display: flex;
+    justify-content: center;
+    padding-inline: 100px;
+}
+.male_name{
+
+    padding-right:50px;
+    
+}
+
+            /* CSS ForgetPassword Page */
+.ForgetPassword{
+    display: grid;
+    justify-content: left;
+    
+}
+.Title_ForgetPassword{
+    display: flex;
+    justify-content: center
+}
+.logo_ForgetPassword{
+    display: inline-flex;
+    justify-content: center;
+    padding-inline: 100px;
+    margin-inline: 50px;
+}
+
+.Email_validated{
+    display: flex;
+    justify-content: left;
+    
+}
+.Cell_validated{
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+.boton_ForgetPassword{
+    height: 30px;
+}
+
+            /* CSS Main Page */
+            .barra_de_inicio{
+                display: grid;
+                grid-template-columns:0.5fr 3fr 0.5fr 0.5fr 0.5fr;
+                column-gap: 10px;
+                row-gap: 5px;
+                align-items: center;
+            }
+
+
+ul{
+    height: auto;
+    background-color: blueviolet;
+}
+
+
+.barra_fija_item{
+    display: inline;
+    list-style: nome;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: blanchedalmond;
+}
+.barra_fija_item_2{
+    padding-right: 40px;
+    display: inline-block;
+}
+.barra_fija_item_rigth{
+    display: inline-block;
+    padding: 5px;
+    padding-right: 0;
+    border-radius: 10px;
+}
+            /* CSS User Perfile Page */
+
+            .User_perfile{
+                margin-inline: 50px;
+                padding-inline: 10px;
+                
+            }
+
+            .barra_de_inicio{
+                display: grid;               
+                grid-template-columns:0.5fr 3fr 0.5fr 0.5fr 0.5fr;
+                column-gap: 10px;
+                row-gap: 5px;
+                align-items: center;
+                border-radius: 50px;
+                background-color: aqua;
+                height: auto;
+
+            }
+            .logo_web{
+                display: inline-flex;
+                justify-content: center;
+      
+            }
+            .barra_name_inicio{
+                display: flex;
+                justify-content: left;
+            }
+            .Shert{
+                display: flex;
+                justify-content: center;
+                
+            }
+            .Mjs{
+                display:flex;
+                justify-content: center;
+                
+            }
+            .Perfil{
+                display: flex;
+                justify-content: center;
+                
+            }
+           
+            .Perfil_Usuario{
+                display: grid;
+                grid-template-columns:3fr 2fr;
+                
+                column-gap: 10px;
+                row-gap: 5px;
+                align-items: center;
+                border: 10px;
+
+            }
+            .User_Name{
+                display: flex;
+                justify-content: left;
+                height: 40px;
+                background-color: beige;
+                
+                align-items: center;
+            }
+            .photo_perfil{
+                display: flex;
+                justify-content: center;
+                background-color: rgb(21, 141, 103);
+                
+            }
+            .item3{
+                grid-row:1 /3;
+            }
+            .Descripcion_Usuario{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: beige;
+            }
+            .container_imagenUP_friends{
+                display: flex;
+                justify-content: space-between;
+                justify-content: space-around;
+                background-color: aqua;
+                border-radius: 20px;   
+                padding: 5px;
+                 
+            
+                         
+                
+            }
+            .container_imagenUP{
+                display: flex;
+                justify-content: space-between;
+                justify-content: space-around;
+
+            }
+            
